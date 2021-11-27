@@ -1,0 +1,60 @@
+Java script => scripting dynamic language
+
+scripting = js => browser mhr cut p thone (ta ku ku mhr host pe thone ya tk kg twe)
+dynamic type => variable ta ku mhr type akone access lote lox ya
+language => communicate each other machine or peple etc...
+
+Natural language (Part-1)
+----------------
+1. Syntax = Grammer
+2. Sematics = Meaning (eg: java 5/2 != js 5/2)
+3. Pragmatic = well used (hti" yout" athone cha ning jinn)
+(eg max = Math.max.apply(Math,arr))
+
+JS(application area)--- Backend (node.js)
+                    --- Frontend (javascript/browser)
+                    --- Desktop (electron framework)
+                    --- Mobile (react native)  
+
+dynamic type => one variable can store any data type
+js is a dynamic type
+
+static type => one variable can store only one data type
+
+typescript => mostly used data-type =>javascript super-sub
+
+=================================================================
+
+Browser (Part-2)
+-------
+A web browser is application software for accessing the World Wide Web. When a user requests a web page from a particular website, the web browser retrieves the necessary content from a web server and then displays the page on the user's device. 
+
+Server => service ta ku ko pay ning 
+Client (Mobile Client,Web Client) => user interface => server ka pay tk service ko thone tk kg
+
+How Browser works
+------------------
+1.HTML Rendering (layout engine)
+2.Js execute (Js engine)
+
+rendering engine works=>HTML source code to Visual element
+
+Rendering engine     - 1. HTML source code
+(separate component) - 2. Parse
+                     - 3. HTML DOM
+                     - 4. Render Layout(CSS,HTML layout)
+ Browser Engines => IE used Trident,Firefox used Gecko,Safari used Webkit,Chrome and opera used Blink 
+(js interpreter)
+
+===============================================================================================================
+
+Http (Part-3)
+-----
+
+Networking => server and client communication (eg.www.google.com)=> google-server==> Networking
+
+Protocol => machine to machine language format ==> get requests <=> responds
+
+http protocol => web client and web server communication (eg.www.google.com) => http protocol
+
+http requests ==> GET/POST => method,url link,headers,body 
