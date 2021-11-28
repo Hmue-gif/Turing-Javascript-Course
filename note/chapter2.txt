@@ -1,0 +1,87 @@
+Interpreter (Part1)
+------------
+V8 engine (js interpreter) => Javascript source code => binary language (machine language) also known as Executable code(Native code)
+
+Bulid / Compile
+----------------
+software ta ku thone p dok jrr kan (code file) ko htoke pay => because our machine can't directly understand some language (eg-java)
+
+Translator
+------------
+*Compiler => Source Code => Compile (code file) => Native Code(Executable Code) => Machine
+
+*Interpreter => Machine Language =>directly execute source code
+
+Compiler speed > Interpreter speed
+
+Virtual Machine => Machine language ko htoke pay tk software(eg.JVM software for java)
+
+Transpiler => High Programming to Low Programming
+           => source language => High level input => Low level output
+           => same input/output but different level => Programming language
+           eg. Type-script to java,kotlin,balbel
+
+JIT => Just In Time => Runtime bytecode to native code (lo up mh change) => JIT Compilation 
+AOT => Ahead Of Time
+=======================================================================================
+
+Compilation Process(Part2)
+--------------------
+ Program
+    |
+lexical analyzer (scanner => atay sone unit ahti kwl)
+
+(eg. 
+    int a = 2;
+        int 
+        a
+        =
+        2
+)
+    |
+Syntax analyzer
+(Parser => Tree)
+    |
+Sematics analyzer
+(type checking)
+    |
+Backend Code
+    |
+Code Optimizer
+    |
+Code Generator
+(byte code / code file)
+
+====================================
+
+Abstract Syntax Tree(Part3)
+---------------------
+eg=> int a =5; 
+         let b = a*a;
+            console.log(b)
+
+byte code => binary file nk encode lote htr tk hrr
+
+format ast => a=b+c* (high level) => machine can't understand
+
+                =
+            a       +
+                b       *
+                    c       d   (low level)
+
+Post order => root ko kyi => left right root
+
+Stack Based VM => first in first out (hitke sone ka ht => htike sone ka htoke) => execution process on runtime using stack
+(b=2,c=3,d=5)
+push b (byte code)
+push c
+push d
+mul(*) =>pop =>temp store
+add(+)
+store a
+
+
+Machine language => 0101
+Assembler => Assembly language => Machine language
+
+Coding language  => Assembler => Assembly language => Machine language => Binary code

@@ -37,14 +37,14 @@ How Browser works
 1.HTML Rendering (layout engine)
 2.Js execute (Js engine)
 
-rendering engine works=>HTML source code to Visual element
+rendering engine works=>HTML source code to Visual element(GUI)
 
 Rendering engine     - 1. HTML source code
 (separate component) - 2. Parse
                      - 3. HTML DOM
                      - 4. Render Layout(CSS,HTML layout)
  Browser Engines => IE used Trident,Firefox used Gecko,Safari used Webkit,Chrome and opera used Blink 
-(js interpreter)
+(JS interpreter) => JS code execute
 
 ===============================================================================================================
 
