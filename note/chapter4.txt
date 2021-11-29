@@ -1,0 +1,35 @@
+Types , Values and Variables
+-----------------------------
+
+Types 
+------
+1- set of possible values
+2- operation on that values
+
+Types => Primitive Types => nout ht ht kwl lo ma ya tk hr twe
+                            eg : string / number / boolean / undefined / null / symbols
+
+      => Object Types  => eg : let car  {
+                                            "name" : "HONDA',
+                                            "Model" : 2020
+                                        }
+
+======================================================================
+
+Maths methods
+-------------
+Math.pow()
+math.round()
+Math.ceil()
+Math.floor()
+Math.abs() = absolute values
+Math.max()
+Math.min()
+Math.random()
+Math.PI()
+Math.sqrt() = square root
+Math.sin()
+
+Infinity
+-Infinity
+NaN(Not A Number eg : 1/0)

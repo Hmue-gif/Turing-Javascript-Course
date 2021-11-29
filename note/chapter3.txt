@@ -1,0 +1,68 @@
+Lexical Structure
+------------------
+-case sensitivity , spaces and line break
+-commends
+-literals
+-identifiers and reversed word
+-unicode
+-optional semicolons
+
+Case sensitivity
+-----------------
+js is case sensitivity (small letter and capital letter ka asa ayay pr tl)
+eg : var a=4 / Var a=4;
+
+Commends
+---------
+for documentation of your codes
+
+    // - for single commends
+
+    /* 
+    for multiple commends
+    */
+
+literals
+---------
+immediate constants (values)
+eg : let a = 5 (5 is literals)
+
+Identifiers
+------------
+just a simply name
+eg : variable names,class names,object names
+
+Naming Rules
+-------------
+start with => letters (A to Z) (a to z)
+           => _ (underscore)
+           => $ (dollar sign)
+           * (don't start with digit)
+
+subsequent with => letter
+                => digit
+                => _
+                => $
+
+Reversed Words
+---------------
+special words that can't use as a variables 
+eg : const let var if ....
+
+Unicode
+---------
+Javascript support unicode characters
+
+Optional Semicolons
+--------------------
+to separate statements from one another
+eg : let a = 5:
+     var b = 6;
+
+ASI (automati semicolons insertion)
+----
+js can automatically add semicolons if u forget
+
+but there is a little problems => return  |
+                                  true:   | this will be => return;
+                                                            true:
