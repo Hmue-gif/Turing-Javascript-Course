@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <script>
+        let str1 = "str1";
+        let str2 = 'str2';
+        let str3 = `str3`;
+        let str4 = new String("str4")
+
+        let txt1 = "Hello 'hmue'";
+        let txt2 = 'Hello "hmue"';
+        let txt3 = 'Hello \n I am Hmue';
+
+        let fname = "Hmue Thiha ";
+        let lname = "Naung";
+        let age = 20;
+        let name = "My name is "+fname+lname
+        let about = `My name is ${fname} and I'm ${age} year old` //template literal
+
+        let example = "Hello World";
+
+        console.log(example.length) //length
+
+        //obtaining portion of a string
+        console.log(example.substring(0,5)) //substring
+        console.log(example.slice(6,11)) //slice
+        console.log(example.slice(-5)) //slice negative
+        
+        console.log(example.split("o")) //split
+
+        //searching a string
+        console.log(example.indexOf("l")) //find
+        console.log(example.indexOf("l",4)) //find after value
+        console.log(example.lastIndexOf("r")) //find last
+
+        //boolean searching
+        console.log(example.includes("o")) //filter return true or false
+        console.log(example.startsWith("H")) //filter return true or false
+        console.log(example.endsWith("l")) //filter return true or false
+
+
+        //modified version of a string
+        console.log(example.replace("Hello","Hi"))
+        console.log(example.toLowerCase())
+        console.log(example.toUpperCase())
+
+        //finding individual string
+        console.log(example.charAt(8))
+        console.log(example.charAt(example.length-1))
+
+        //string padding
+        let x="x"
+        console.log(x.padStart(3)) 
+        console.log(x.padEnd(3)) 
+        console.log(x.padStart(3,"*")) 
+        console.log(x.padEnd(3,"*")) 
+
+        //trim
+        let y = "     y"
+        console.log(y.trim())
+
+        //repeat
+        console.log(y.repeat(10))
+
+        console.log(str1,str2,str3,str4)
+        console.log(txt1,txt2,txt3)
+        console.log(name)
+        console.log(about)
+
+
+    </script>
+</body>
+</html>

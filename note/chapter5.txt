@@ -1,0 +1,70 @@
+text
+-----
+    let str1 = "str1";
+    let str2 = 'str2';
+    let str3 = `str3`;
+    let str4 = new String("str4")
+
+Escape Sequences
+-----------------
+\0 The NUL character
+\b Backspace
+\t Horizontal tab
+\n Newline
+\v Vertical tab
+\f Form feed
+\r Carriage return
+\" Double quote
+\' Apostrophe or single quote
+\\ Backslash
+\xnn The Unicode character specified by the two hexadecimal digits nn
+\unn nn
+The Unicode character specified by the four hexadecimal digits nnnn
+\u{n }
+The Unicode character specified by the codepoint n, where n is one to six hexadecimal digits between 0 and 10FFFF (ES6)
+
+String methods
+---------------
+Obtaining portions of a string   
+s.substring(0,4) 
+s.slice(1,4)            
+s.slice(-3)             
+s.split(", ")   
+
+Searching a string s.indexOf("l")          
+s.indexOf("l", 3)       
+s.indexOf("z")         
+s.lastIndexOf("l")
+
+Boolean searching functions in ES6 and later 
+s.startsWith("Hell")    
+s.endsWith("!")         
+s.includes("or") 
+
+Creating modified versions of a string 
+s.replace("llo", "ya")  
+s.toLowerCase()         
+s.toUpperCase()         
+s.normalize()           
+Unicode NFC normalization: ES6 s.normalize("NFD")     
+
+Inspecting individual (16-bit) characters of a string 
+s.charAt(0)             
+s.charAt(s.length-1)    
+s.charCodeAt(0)         
+/s.codePointAt(0)
+
+//padding
+.padStart(3)
+.padEnd(3)
+
+
+//trim
+.trim()
+.trimStart(3)
+.trimEnd(3)
+
+repeat()
+
+
+
