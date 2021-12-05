@@ -2,8 +2,34 @@ Global Object
 --------------
 window object lox ll kaw tl 
 *program yk kyite tk nay yr ka nay kaw thone lox ya tl
+==========================================================
 
 Immutable Primitive Values => Primitive twe ka immutable pyit
  
 Mutable Object References => object twe ka mutable pyit
+
+Primitive => value Model
+Object => reference Model
+
+Primitive twe ka => whole value ta ku lone copy
+eg : let a = 10;
+     let b = a;
+     a++ ;
+
+     (a=11,b=10)
+
+Object twe ka => reference (address) ko pl copy
+eg : let obj1 = {
+                    name : "Hmue",
+                    age : 20
+                }
+      let obj2 = obj1;
+      obj2.name = "Thiha";
+      obj2.age = 21;
+
+      (obj1 => name:"Thiha" , age:21)
+======================================================
+
+
+
 

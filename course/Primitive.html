@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primitive</title>
+</head>
+<body>
+    <script>
+        //immutable value cant change
+        let str = "Hello";
+        str[0] = "K"; //string twe ka primitive (immutable) pyit lox value change lox ma ya
+        console.log(str)
+        
+        var a = 10;
+        b = a ;
+        a++;
+        console.log("A ",a)
+        console.log("B ",b) 
+
+        //mutable => value can change
+        let obj1 = {
+            name : "Human",
+            age : "80"
+        }
+
+        let obj2 = obj1
+
+        obj2.name="Hmue Thiha Naung";
+        obj2.age=20
+
+        console.log(obj1.name)
+        console.log(obj2.name)
+        console.log(obj1.age)
+        console.log(obj2.age)
+    </script>
+</body>
+</html>
