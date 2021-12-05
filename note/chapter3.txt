@@ -64,5 +64,5 @@ ASI (automati semicolons insertion)
 js can automatically add semicolons if u forget
 
 but there is a little problems => return  |
-                                  true:   | this will be => return;
+                                  true;   | this will be => return;
                                                             true:

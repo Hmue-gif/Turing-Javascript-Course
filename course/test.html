@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="run">click</button>
+    <p id="para"></p>
+    <script>
+        let str = "Hello World";
+        console.log(str)
+        console.log(str.length)
+        console.log(str.substring(0,5))
+        console.log(str.split(" ")[1])
+        console.log(str.charAt(str.length-1))
+        console.log(str.indexOf("l",4))
+        console.log(str.lastIndexOf("o"))
+        let replace = str.replace("World","Hmue Thiha Naung");
+        let x = "  x";
+        console.log(x.trim())
+
+        console.log(replace)
+        let find = str.includes("g")
+        if(find){
+            console.log("Hello")
+        }else{
+            console.log("not found")
+        }
+
+        function run(){
+            let repeat = str.repeat(10);
+            document.getElementById("para").innerHTML=repeat;
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>

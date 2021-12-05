@@ -1,0 +1,9 @@
+Global Object
+--------------
+window object lox ll kaw tl 
+*program yk kyite tk nay yr ka nay kaw thone lox ya tl
+
+Immutable Primitive Values => Primitive twe ka immutable pyit
+ 
+Mutable Object References => object twe ka mutable pyit
+

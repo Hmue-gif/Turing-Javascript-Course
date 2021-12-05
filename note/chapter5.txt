@@ -28,7 +28,8 @@ String methods
 Obtaining portions of a string   
 s.substring(0,4) 
 s.slice(1,4)            
-s.slice(-3)             
+s.slice(-3)  
+           
 s.split(", ")   
 
 Searching a string s.indexOf("l")          
