@@ -1,0 +1,13 @@
+Expression
+-----------
+value ta ku ku ko return pyn pay yin expression
+partial meaning
+
+Primiry Expression
+-------------------
+Opeartor twe ma par pl value pl return pyn
+eg : true,false,this,undefined,....
+
+Statement 
+---------
+complete meaning
