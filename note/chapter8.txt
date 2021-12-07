@@ -1,0 +1,25 @@
+Variable Declartion
+---------------------
+variable = tempolarity store data
+javascript => dynamic type variables
+
+=======================================
+
+Differerce between var and let and const
+----------------------------------------
+    code block => {
+                    code...
+                  }
+
+    scope => pine nak => variable ko kaw thone lox ya tk pine nak
+
+
+var => 1. function scope (anywhere inside the function)
+       2. hoisting
+       3. re-defined
+
+let => 1. block scope (anywhere inside its parent scope)
+       2. no hoisting
+       3. no re-defined
+
+const => can't change value

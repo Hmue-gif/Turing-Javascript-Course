@@ -13,4 +13,4 @@ falsy => false
 let a ; => undefined => not assigned values => type => undefined
 let a = null => null value => type => object
 
-why has null value =. historical language design => Java inspires yuu htr
+why has null value => historical language design => Java inspires yuu htr

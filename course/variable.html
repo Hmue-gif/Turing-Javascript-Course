@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+</head>
+<body>
+    <script>
+        let name = "Hmue Thiha Naung"; // name is variable
+        let age ="20";
+        let gf = false;
+
+        var old = "old";
+        var old = "new"
+
+        let myName = ()=>{
+            return `My Name is Hmue`
+        }
+
+
+        let codeBlock = ()=> {
+            console.log(scope) //hoisting
+            var scope = "this is var"; //variable var
+            scope = "re-defined"
+            console.log("this is code block");
+
+            {   
+                let scope1 = "this is let" //variable let
+                // scope1 = "re-defined let"
+                console.log("inner block")
+                console.log("var scope ", scope)
+                console.log("let scope ", scope1)
+            }
+        }
+
+        const PI = 3.142;
+        console.log(PI)
+
+        console.log(myName())
+        console.log(codeBlock())
+        console.log(name)
+        console.log(old)
+        console.log(typeof(gf))
+        console.log(typeof(age))
+        console.log(typeof(parseInt(age)))
+    </script>
+</body>
+</html>

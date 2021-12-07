@@ -59,7 +59,7 @@ to separate statements from one another
 eg : let a = 5:
      var b = 6;
 
-ASI (automati semicolons insertion)
+ASI (automatic semicolons insertion)
 ----
 js can automatically add semicolons if u forget
 
